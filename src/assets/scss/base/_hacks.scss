@@ -1,0 +1,37 @@
+/* ***** ----------------------------------------------- ***** **
+** ***** Base/Hacks (http://browserstrangeness.bitbucket.org/css_hacks.html)
+** ***** ----------------------------------------------- ***** */
+
+
+/* ***** IE Hacks
+** ***** ----------------------------------------------- ***** */
+
+// Edge 12+
+@supports (-webkit-appearance:none) {
+
+}
+
+// IE 10 and 11
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+}
+
+
+/* ***** Safari Hacks
+** ***** ----------------------------------------------- ***** */
+
+// Example
+_::-webkit-full-page-media,
+_:future,
+:root .selector {
+
+}
+
+/* ***** Firefox Hacks
+** ***** ----------------------------------------------- ***** */
+
+// Example
+_::-moz-range-track,
+body:last-child .selector {
+
+}
