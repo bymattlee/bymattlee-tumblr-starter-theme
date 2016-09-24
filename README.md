@@ -39,11 +39,11 @@ $ gulp watch
 ```
 $ gulp
 ```
-##### Staging Build - Build Project With Staging URL, Remove Sourcemaps And Minify HTML
+##### Staging Build - Build Project And Remove Sourcemaps
 ```
 $ gulp --staging
 ```
-##### Production Build - Build Project With Production URL, Remove Sourcemaps And Minify HTML
+##### Production Build - Build Project And Remove Sourcemaps
 ```
 $ gulp --production
 ```
