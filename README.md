@@ -12,7 +12,7 @@
 $ npm install
 ```
 ##### 3. Update Gulp Config
-All Gulp settings can be found in `gulp/config.js`. Enter in development, staging and production URLs to allow pretty URLs to function properly. See `line 31` and `line 39`
+All Gulp settings can be found in `gulp/config.js`
 ##### 4. Enable Deployment
 To enable deployment, create `hostSettings.json` and store in the `gulp` directory. This file should not be checked in as it contains sensitive information. Sample `hostSettings.json`:
 ```
