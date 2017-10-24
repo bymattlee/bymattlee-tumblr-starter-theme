@@ -62,7 +62,8 @@ gulp.task('styles', function () {
 			.pipe(sass().on('error', sass.logError))
 			.pipe(autoprefixer())
 			.pipe(cleanCSS({
-				inline: ['all']
+				inline: ['all'],
+				rebase: false
 			}))
 			.pipe(concat('main.css'))
 			.pipe(rename({
