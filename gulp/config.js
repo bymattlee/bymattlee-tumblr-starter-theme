@@ -84,4 +84,4 @@ module.exports = {
 		dest: './',
 		filename: 'Project.Assets.' + timestamp + '.tar'
 	}
-}
+};
