@@ -77,7 +77,10 @@ module.exports = {
 	},
 	deploy: {
 		src: dest + '/',
-		root: dest
+		root: dest,
+		exclude: [
+			srcAssets + '/vendors/**/*'
+		]
 	},
 	gzip: {
 		src: dest + '/**/*',
