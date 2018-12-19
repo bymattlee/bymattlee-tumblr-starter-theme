@@ -13,12 +13,21 @@ var browserSync = require('browser-sync'),
 ** -- Initialize watch for styles, scripts, images, svgs and asset files
 ** -- Force browser reload when changes are made to images, svgs and asset files
 */
-gulp.task('watch', ['browserSync'], function() {
+gulp.task('watch', function() {
 
-	gulp.watch(config.styles.src, ['styles']);
-	gulp.watch(config.scripts.src, ['scripts:main']);
-	gulp.watch(config.images.src, ['images']);
-	gulp.watch(config.svgs.src, ['svgs']);
-	gulp.watch(config.copy.src, ['copy']);
+	browserSync.init({
+		server: config.browserSync.server,
+		open: false,
+		middleware: function (req, res, next) {
+			res.setHeader('Access-Control-Allow-Origin', '*');
+			next();
+		}
+	});
+
+	gulp.watch(config.styles.src, gulp.series('styles'));
+	gulp.watch(config.scripts.src, gulp.series('scripts:main'));
+	gulp.watch(config.images.src, gulp.series('images'));
+	gulp.watch(config.svgs.src, gulp.series('svgs'));
+	gulp.watch(config.copy.src, gulp.series('copy'));
 
 });

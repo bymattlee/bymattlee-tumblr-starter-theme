@@ -3,11 +3,10 @@
 # ByMattLee Tumblr Starter Theme
 * A starter Tumblr theme that includes base Tumblr template variables
 * Theme is stripped down and does not contain any styles
-* Uses Gulp as the build tool and Bower to manage front-end packages
+* Uses Gulp 4 as the build tool and Bower to manage front-end packages
 
 ## Installation
-##### 1. Install Node 7.10.1: <https://nodejs.org/en/blog/release/v7.10.1/>
-Only compatible with Node 7.10.1 and below. Upgrade TBD.
+##### 1. Install Node: <https://nodejs.org/en/>
 ##### 2. Install all dependencies and build project
 ```
 $ npm install
