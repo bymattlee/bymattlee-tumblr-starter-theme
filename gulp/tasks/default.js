@@ -4,21 +4,17 @@
 
 // Require all development dependencies
 var config = require('../config'),
-	gulp = require('gulp');
+	gulp = require('gulp'),
+	runSequence = require('gulp4-run-sequence');
 
 /*
 ** -- Clean dist directory
 ** -- Run all tasks to rebuild project
 */
-gulp.task('default',
-	gulp.series(
+gulp.task('default', function(done) {
+	runSequence(
 		'clean',
-		gulp.parallel(
-			'styles',
-			'scripts',
-			'images',
-			'svgs',
-			'copy'
-		)
-	)
-);
+		['styles', 'scripts', 'images', 'svgs', 'copy']
+	);
+	done();
+});
