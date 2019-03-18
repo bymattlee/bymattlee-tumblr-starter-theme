@@ -1,8 +1,9 @@
 /* ***** ----------------------------------------------- ***** **
-** ***** Components/Footer Styles
+** ***** Elements/Paragraph Styles
 ** ***** ----------------------------------------------- ***** */
 
 
-.c-footer {
-
+p {
+	line-height: $line-height-loose;
+	margin: 2rem 0;
 }

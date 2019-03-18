@@ -1,8 +1,17 @@
 /* ***** ----------------------------------------------- ***** **
-** ***** Components/Footer Styles
+** ***** Elements/Media Styles
 ** ***** ----------------------------------------------- ***** */
 
 
-.c-footer {
+figure {
+	margin: 0;
+}
 
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+svg {
+	width: 100%;
 }

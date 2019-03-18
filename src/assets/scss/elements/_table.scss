@@ -1,8 +1,14 @@
 /* ***** ----------------------------------------------- ***** **
-** ***** Components/Footer Styles
+** ***** Elements/Table Styles
 ** ***** ----------------------------------------------- ***** */
 
 
-.c-footer {
+table {
+	border-width: 0.1rem;
 
+	th,
+	td {
+		border: 0.1rem solid $grey-light--c;
+		padding: 0.5rem;
+	}
 }

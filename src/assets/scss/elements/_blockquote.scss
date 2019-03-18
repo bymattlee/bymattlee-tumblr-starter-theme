@@ -1,8 +1,10 @@
 /* ***** ----------------------------------------------- ***** **
-** ***** Components/Footer Styles
+** ***** Elements/Blockquote Styles
 ** ***** ----------------------------------------------- ***** */
 
 
-.c-footer {
-
+blockquote {
+	border-left: 0.4rem solid $grey-light--c;
+	margin: 3rem 2rem;
+	padding-left: 2rem;
 }
