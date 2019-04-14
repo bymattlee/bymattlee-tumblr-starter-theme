@@ -4,5 +4,9 @@
 
 
 .c-header {
-	margin-bottom: 3rem;
+	margin-bottom: to-vw(30, $mobile-ratio-width);
+
+	@include mq("medium") {
+		margin-bottom: to-vw(35, $desktop-ratio-width);
+	}
 }
