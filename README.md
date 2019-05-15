@@ -81,6 +81,8 @@ $ gulp gzip
 * All vendor JS that couldn't be found on Bower can be manually added to `src/assets/js/vendors` and are bundled in `vendors.min.js`
 * When adding new devDependencies to Bower, rebuild scripts to ensure they are compiled into `vendors.min.js`
 * `.eslintrc` contains the settings for ESLint
+* Info about class namespacing can be found in `src/assets/scss/main.scss`
+* Default unit of measurement is **vw**
 
 ##### Images
 * Place all unoptimized images in the `src/assets/images` directory
