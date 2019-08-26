@@ -1,3 +1,8 @@
+# DEPRECATED
+* This is no longer supported, please consider pulling ideas from the [ByMattLee Web Starter Files](https://github.com/bymattlee/bymattlee-web-starter-files) instead.
+
+***
+
 [![ByMattLee](http://hosted.bymattlee.com/github/bymattlee-logo.png)](http://bymattlee.com)
 
 # ByMattLee Tumblr Starter Theme
